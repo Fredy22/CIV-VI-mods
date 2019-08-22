@@ -1,0 +1,14 @@
+<GameData>
+	<LocalizedText>
+		<!--Buildings-->
+		<Replace Tag="LOC_GAMESPEED_STANDARD_NAME" Language="fr_FR">
+			<Text>Historic</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMESPEED_STANDARD_HELP" Language="fr_FR">
+			<Text>A longer, better paced game featuring standard production times with extended eras.</Text>
+		</Replace>
+		<Replace Tag="LOC_ROUTE_INDUSTRIAL_ROAD_NAME" Language="fr_FR">
+			<Text>Renaissance Road</Text>
+		</Replace>
+		</LocalizedText>
+</GameData>

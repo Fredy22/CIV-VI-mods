@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="6f919f67-60fe-467d-8b3d-d1a08108d4d8" version="1">
+  <Properties>
+    <Name>Historic Speed (Extended Eras)</Name>
+    <Description>Make sure you select "Historic" speed.</Description>
+    <Teaser>Make sure you select "Historic" speed.</Teaser>
+    <Authors>p0kiehl</Authors>
+    <SpecialThanks>LeeS; Oleus; Desucrate</SpecialThanks>
+	<CompatibleVersions>2.0</CompatibleVersions>	
+  </Properties>
+  <ActionCriteria />
+  <FrontEndActions>
+    <UpdateText id="Text">
+      <File>HistoricSpeed_Text.xml</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <Properties>
+        <LoadOrder>375</LoadOrder>
+      </Properties>
+      <File>Project/HistoricSpeed_Project.sql</File>
+      <File>HistoricSpeed_Gameplay.sql</File>
+      <File>HistoricSpeed_GameplayXP.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <Properties>
+        <LoadOrder>310</LoadOrder>
+      </Properties>
+      <File>HistoricSpeed_Text.xml</File>
+      <File>Project/HistoricSpeed_ProjectText.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <File>Project/HistoricSpeed_Project_Icon.xml</File>
+    </UpdateIcons>
+    <UpdateDatabase id="GameplayXP2">
+      <Properties>
+        <LoadOrder>375</LoadOrder>
+      </Properties>
+      <File>HistoricSpeed_GameplayXP2.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>HistoricSpeed_Gameplay.sql</File>
+    <File>HistoricSpeed_GameplayXP.sql</File>
+    <File>HistoricSpeed_GameplayXP2.sql</File>
+    <File>HistoricSpeed_Text.xml</File>
+    <File>Project/HistoricSpeed_Project.sql</File>
+    <File>Project/HistoricSpeed_ProjectText.sql</File>
+    <File>Project/HistoricSpeed_Project_Icon.xml</File>
+  </Files>
+</Mod>

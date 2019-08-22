@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<IconDefinitions>
+		<Row Name="ICON_POK_PROJECT_LOCAL_FESTIVITIES"	Atlas="ICON_ATLAS_PROJECTS" Index="10"/>
+	</IconDefinitions>
+</GameInfo>
